@@ -33,7 +33,7 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
 
   @override
   void dispose() {
-    // TODO: implement dispose
+
     animationController.dispose();
     super.dispose();
   }
